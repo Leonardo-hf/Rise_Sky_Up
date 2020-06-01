@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_200"
+    android:layout_height="@dimen/dp_400"
+    android:background="@drawable/background_continue"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/auto_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_135"
+        android:background="@android:color/transparent"
+        android:theme="@android:style/Theme.Translucent"
+        android:text="自动存档-空"/>
+
+    <Button
+        android:id="@+id/save_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_177"
+        android:background="@android:color/transparent"
+        android:text="存档一_空"
+        android:textSize="@dimen/dp_18"
+        android:theme="@android:style/Theme.Translucent" />
+
+    <Button
+        android:id="@+id/save_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="@dimen/dp_220"
+        android:layout_centerHorizontal="true"
+        android:text="存档二_空"
+        android:textSize="@dimen/dp_18"
+        android:theme="@android:style/Theme.Translucent" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="eve"/>
+    <version value="6"/>
+    <list>
+        <mapping class="com.example.uglyread.Event"/>
+        <mapping class="com.example.uglyread.Save"/>
+        <mapping class="com.example.uglyread.SingleTech"/>
+    </list>
+</litepal>
